@@ -20,6 +20,9 @@
 // Custom outline
 #table-of-contents()
 
+#include("sections/introduction.typ")
+#include("sections/state_of_the_art.typ")
+#include("sections/objective.typ")
 
 // Bibliography
 #let bib = bibliography("bibliography.bib")
