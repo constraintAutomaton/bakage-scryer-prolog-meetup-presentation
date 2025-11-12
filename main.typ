@@ -18,12 +18,14 @@
 )
 
 // Custom outline
-#table-of-contents()
+//#table-of-contents()
 
 #include("sections/introduction.typ")
 #include("sections/state_of_the_art.typ")
 #include("sections/objective.typ")
+#include("sections/design.typ")
+#include("sections/perpective.typ")
 
 // Bibliography
 #let bib = bibliography("bibliography.bib")
-#bibliography-slide(bib)
+//#bibliography-slide(bib)
