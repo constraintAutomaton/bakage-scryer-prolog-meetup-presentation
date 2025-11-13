@@ -21,7 +21,7 @@
   - Potential inspiration: #link("https://logtalk.org/manuals/devtools/packs.html")[Packs (Logtalk)]
 ]
 
-#slide(title: "Well-designed package registry", outlined: true)[
+#slide(title: "Package registry", outlined: true)[
   - Centralized package software registries can be very expensive
     - #link("https://talkpython.fm/episodes/show/64/inside-the-python-package-index")[#quote("Running PyPI costs around $35,000 per month in infrastructure and bandwidth alone")]
     - Of course, Python-level traffic wouldn't be expected overnight
