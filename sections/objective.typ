@@ -2,7 +2,7 @@
 
 #slide(title: "Making Prolog Package Managing Better?", outlined: true)[
   - Workspace management
-  - ISO Prolog compliance
+  - Making Prolog code shareable across "all implementations"
   - Package registry
   - License management
 ]
@@ -14,7 +14,7 @@
   - Potential inspiration: #link("https://doc.rust-lang.org/cargo/")[Cargo (Rust)], #link("https://yarnpkg.com/")[Yarn (JavaScript)]
 ]
 
-#slide(title: "ISO Prolog compliance", outlined: true)[
+#slide(title: "Making Prolog code shareable across all implementations", outlined: true)[
   - Work with "any" Prolog implementation
   - Implementation compatibility
     - Automatic/semi-automatic polyfills for incompatibilities

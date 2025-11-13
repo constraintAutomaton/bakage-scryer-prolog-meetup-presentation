@@ -25,6 +25,7 @@
 #include("sections/objective.typ")
 #include("sections/design.typ")
 #include("sections/perpective.typ")
+#include("sections/conclusion.typ")
 
 // Bibliography
 #let bib = bibliography("bibliography.bib")
