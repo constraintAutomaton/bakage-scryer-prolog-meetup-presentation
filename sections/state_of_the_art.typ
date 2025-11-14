@@ -7,7 +7,7 @@
       - No lockfile (for reproducibility when range of versions is specified)
       - No support for workspaces features, local dependencies (#link("https://www.swi-prolog.org/pldoc/man?section=prologpack")[local pack can be installed] but cannot be #link("https://www.swi-prolog.org/pldoc/man?section=pack-devel")[declare in the manifest] )
       - No support for transitive dependencies outside of the #link("https://www.swi-prolog.org/pack/list")[Packs (add-ons)] (there is a system of #link("https://www.swi-prolog.org/pldoc/man?section=pack-devel")[providers]) or not already installed
-      - No support for version constraints (only latest version is installed)
+      - No support for git dependencies in the manifest
         - #link("https://github.com/wouterbeek/ppm")[Prolog-Package-Manager (PPM)] attempt to solve this problem
   #pagebreak()
 

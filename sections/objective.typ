@@ -9,12 +9,11 @@
 
 #slide(title: "Workspace management", outlined: true)[
   - Shared dependencies across packages
-  - Unified commands
   - Linking of local packages
   - Potential inspiration: #link("https://doc.rust-lang.org/cargo/")[Cargo (Rust)], #link("https://yarnpkg.com/")[Yarn (JavaScript)]
 ]
 
-#slide(title: "Making Prolog code shareable across all implementations", outlined: true)[
+#slide(title: "Making Prolog code shareable across implementations", outlined: true)[
   - Work with "any" Prolog implementation
   - Implementation compatibility
     - Automatic/semi-automatic polyfills for incompatibilities
